@@ -21,3 +21,7 @@ export const findConfig = params => { return axios.get(`${base}/config/find`, { 
 export const addLeaveWord = params => { return axios.post(`${base}/leaveWord/add`, params); };
 
 export const getIndustryListPage = params => { return axios.get(`${base}/industryInfo/all`, { params: params }); };
+
+export const getCatagoryList = params => { return axios.get(`${base}/catagory/list`, { params: params }); };
+
+export const getRelatedListProductInfoListPage = params => { return axios.get(`${base}/productInfo/relatedList`, { params: params }); };

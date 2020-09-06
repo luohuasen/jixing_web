@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Index from "../components/pages/Index";
 import About from "../components/pages/About";
 import Service from "../components/pages/Service";
-import Work from "../components/pages/Work";
+import Product from "../components/pages/Product";
 import News from "../components/pages/News";
 import Contact from "../components/pages/Contact";
 Vue.use(Router)
@@ -28,7 +28,7 @@ export default new Router({
       path: '/work',
       name: '产品展示',
       index: 3,
-      component: Work,
+      component: Product,
       leaf: true
     },
     {
