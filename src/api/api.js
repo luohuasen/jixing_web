@@ -19,3 +19,5 @@ export const deleteConfig = params => { return axios.get(`${base}/config/delete`
 export const findConfig = params => { return axios.get(`${base}/config/find`, { params: params }); };
 
 export const addLeaveWord = params => { return axios.post(`${base}/leaveWord/add`, params); };
+
+export const getIndustryListPage = params => { return axios.get(`${base}/industryInfo/all`, { params: params }); };
