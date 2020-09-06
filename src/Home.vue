@@ -43,7 +43,7 @@
         <div class="wrap">
           <ul class="foot clearfix">
             <li>
-              <a href="" class="f_logo"><img src="assets/images/0001.png" alt=""/></a>
+              <a href="" class="f_logo"><img src="./assets/images/0001.png" alt=""/></a>
               <p>Copyright ® 2015 - 2028</p>
               <p>Jixing advertising decoration Co., Ltd.</p>
               <p>All Rights Reserved.</p>
@@ -85,7 +85,7 @@
           </i>
           <ul class="pop pop-code">
             <li>
-              <img src="Assets/images/code.jpg" alt="深圳市吉兴广告装饰有限公司"><h3><b>微信号：13113662418</b>微信二维码</h3>
+              <img src="./Assets/images/code.jpg" alt="深圳市吉兴广告装饰有限公司"><h3><b>微信号：13113662418</b>微信二维码</h3>
             </li>
           </ul>
         </dd>
